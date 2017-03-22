@@ -9,7 +9,7 @@ class Application_Model_Contacto
     function ExecCURL($tipooperacion, $id, $contactodatos)
     {
         $accessToken= "aca va el token de Alegra";
-        $apiServer = "https://app.alegra.com/api/v1/contacts/".$id;            //set to your ProcessMaker address
+        $apiServer = "dirección del servidor del API de Alegra".$id;            //set to your ProcessMaker address
         $headr = array();
         $headr[] = 'Accept: application/json';
         $headr[] = 'Content-type: application/json';
